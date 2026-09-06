@@ -12,6 +12,12 @@ The evidence separates four stages that are often conflated: instruction compreh
 
 The main public report is **Technical Audit v1.3 (30 Aug 2026)**. A later English supplement covers **4–6 Sep 2026**, including repeated source-binding and output-format failures, deterioration in correction recovery, functional workflow blocking, and the explicit **Applause Principle** used to prevent unsupported causal attribution.
 
+## Subject privacy
+
+The current public repository uses a **privacy-redacted terminology** for identity-relevant visual features of the real portrait subject. Medical diagnosis, cause, functional impairment, treatment history, and other health information are intentionally excluded. A stable visual characteristic is referred to neutrally as **FEATURE-F1** where necessary for technical analysis.
+
+Private source photographs are not part of the public GitHub/Zenodo evidence package. See **[PRIVACY_NOTICE.md](PRIVACY_NOTICE.md)**.
+
 ## Primary finding
 
 > GPT-5.6 Sol demonstrates the ability to understand and verbalize active constraints, but those constraints are not always reliably bound to the immediately following executable action. Repeated textual correction does not guarantee that the corrected rule becomes an effective pre-action gate.
@@ -28,7 +34,7 @@ The complete English v1.3 report is published in eight ordered Markdown parts un
 
 Latest supplement:
 
-- **[Supplemental evidence — 4–6 Sep 2026](report/en/CODEX_SUPPLEMENT_2026-09-04_to_06_EN.md)**
+- **[Privacy-redacted supplemental evidence — 4–6 Sep 2026](report/en/CODEX_SUPPLEMENT_2026-09-04_to_06_EN.md)**
 
 ### Russian
 
@@ -64,7 +70,11 @@ English v1.3 source Markdown SHA-256:
 
 `77e3efdcf89f60221cb049e083380af844e4de1d9d2902f8b00e4121e652f4e5`
 
-English supplement Markdown SHA-256:
+Current privacy-redacted English supplement Markdown SHA-256:
+
+`4aa036369e0d3109adb1a658c005546061460f7a9f8e9dd1ed6fb625f34c760b`
+
+Original pre-redaction supplement SHA-256, preserved only as historical integrity metadata:
 
 `57c5642cf53f1c480e257825f9df132c679872769c3e136a563a85cbf2b9949c`
 
@@ -89,6 +99,8 @@ The release **`v1.3-supplement-2026-09-06`** is archived by Zenodo.
 - [`docs/index.html`](docs/index.html) is the source of the public GitHub Pages landing page.
 
 For reproducible citation of the evidence package as released on 6 Sep 2026, use the **version DOI** `10.5281/zenodo.22537934`. The concept DOI `10.5281/zenodo.22537933` is the stable reference to the evolving record across future versions.
+
+**Important:** the current GitHub repository contains privacy redactions made after the first Zenodo snapshot. The Zenodo file set should be updated through Zenodo's published-file correction workflow so the archived copy matches the current privacy-redacted public text.
 
 ## Publication status
 
