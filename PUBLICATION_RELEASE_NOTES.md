@@ -8,6 +8,14 @@
 
 **Technical Audit v1.3 + Supplemental Evidence (4–6 Sep 2026)**
 
+## Historical-release privacy note
+
+The GitHub tag/release `v1.3-supplement-2026-09-06` is a historical snapshot that predates the privacy-redacted public package now maintained on `main` and in the active Zenodo record.
+
+For the current canonical public presentation, use the latest `main` snapshot and the current Zenodo version. Earlier wording may contain subject-specific descriptive details that were subsequently removed or neutralized as a privacy-minimization measure. The privacy redaction does not alter the audit's technical findings, evidence boundaries, or causal conclusions.
+
+The historical snapshot is retained for provenance and version-history purposes; this notice does not remove or conceal the earlier text.
+
 ## Release description
 
 This release preserves a versioned public evidence package for the technical audit of ChatGPT / GPT-5.6 Sol reliability, instruction-following, state-to-action binding, multimodal reference handling, correction recovery, and image-generation workflow incidents.
