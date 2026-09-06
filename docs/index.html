@@ -29,7 +29,11 @@
 
   <h2>Abstract</h2>
   <p>This project documents repeated reliability failures observed during a long-running ChatGPT / GPT-5.6 Sol multimodal workflow. The central question is not whether the model can understand explicit constraints, but whether acknowledged constraints are reliably bound to the immediately following executable action. The evidence separates instruction comprehension, textual acknowledgement, executable state, and actual tool/action behavior. It also distinguishes observed facts from engineering interpretations and from internal causes that remain unverified without server-side telemetry.</p>
-  <p>The evidence package includes a controlled repeated-run series, source-provenance analysis, correction-recovery observations, multimodal/image-generation failures, and a later supplement documenting a sharp deterioration in recovery reliability on 5–6 Sep 2026. The report applies an explicit causal-discipline rule, the “Applause Principle”: temporal sequence alone is not sufficient evidence of causation.</p>
+  <p>The evidence package includes a controlled repeated-run series, source-provenance analysis, correction-recovery observations, multimodal/image-generation failures, and a later supplement documenting deterioration in recovery reliability within the observed workflow on 5–6 Sep 2026. The report applies an explicit causal-discipline rule, the “Applause Principle”: temporal sequence alone is not sufficient evidence of causation.</p>
+
+  <h2>Subject privacy</h2>
+  <p>The current public text is privacy-redacted. Medical diagnosis, cause, functional impairment, treatment history, and other health information concerning the real portrait subject are intentionally excluded. A stable identity-relevant visual characteristic is referred to neutrally as <strong>FEATURE-F1</strong> where necessary for technical analysis. Private source photographs are not part of the public evidence package.</p>
+  <p><a href="https://github.com/Ysaak62/chatgpt-technical-audit/blob/main/PRIVACY_NOTICE.md">Read the public privacy notice</a></p>
 
   <h2>Primary finding</h2>
   <p><strong>GPT-5.6 Sol can understand and verbalize active constraints, but those constraints are not always reliably converted into effective pre-action gates or bound to the next executable action. Repeated textual correction does not guarantee reliable correction-to-action recovery.</strong></p>
@@ -38,7 +42,7 @@
   <div class="links">
     <a href="https://github.com/Ysaak62/chatgpt-technical-audit/blob/main/CODEX_READ_FIRST_EN.md">English entry point</a>
     <a href="https://github.com/Ysaak62/chatgpt-technical-audit/blob/main/CODEX_READ_FIRST.md">Russian entry point</a>
-    <a href="https://github.com/Ysaak62/chatgpt-technical-audit/blob/main/report/en/CODEX_SUPPLEMENT_2026-09-04_to_06_EN.md">4–6 Sep 2026 supplement</a>
+    <a href="https://github.com/Ysaak62/chatgpt-technical-audit/blob/main/report/en/CODEX_SUPPLEMENT_2026-09-04_to_06_EN.md">Privacy-redacted 4–6 Sep 2026 supplement</a>
     <a href="https://github.com/openai/codex/issues/41851">OpenAI Codex issue #41851</a>
     <a href="https://github.com/Ysaak62/chatgpt-technical-audit">Evidence repository</a>
   </div>
@@ -55,12 +59,13 @@
 
   <h2>Integrity</h2>
   <p>Main English v1.3 Markdown SHA-256: <code>77e3efdcf89f60221cb049e083380af844e4de1d9d2902f8b00e4121e652f4e5</code></p>
-  <p>Supplement Markdown SHA-256: <code>57c5642cf53f1c480e257825f9df132c679872769c3e136a563a85cbf2b9949c</code></p>
+  <p>Current privacy-redacted supplement Markdown SHA-256: <code>4aa036369e0d3109adb1a658c005546061460f7a9f8e9dd1ed6fb625f34c760b</code></p>
 
   <h2>Citation</h2>
   <p><strong>Version DOI (exact 6 Sep 2026 release):</strong> <a href="https://doi.org/10.5281/zenodo.22537934">10.5281/zenodo.22537934</a></p>
   <p><strong>Concept DOI (all versions):</strong> <a href="https://doi.org/10.5281/zenodo.22537933">10.5281/zenodo.22537933</a></p>
   <p>Use the version DOI to cite the exact archived release <code>v1.3-supplement-2026-09-06</code>. The concept DOI provides a stable reference across future Zenodo versions.</p>
+  <p><strong>Archive synchronization note:</strong> the current repository includes privacy redactions made after the first Zenodo snapshot. The archived Zenodo file set should be updated through Zenodo's published-file correction workflow.</p>
 
   <footer>
     Maintained as a public evidence record. The 6 Sep 2026 archival release is preserved through GitHub Releases and Zenodo.
