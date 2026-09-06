@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ysaak62.github.io/chatgpt-technical-audit/sitemap.xml
