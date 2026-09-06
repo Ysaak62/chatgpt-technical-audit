@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use or discuss this public technical audit, please cite the report and its versioned evidence package."
+title: "Technical Audit of ChatGPT / GPT-5.6 Sol Reliability: Instruction-to-Action Binding and Multimodal Workflow Incidents"
+version: "1.3+supplement-2026-09-06"
+type: dataset
+abstract: >-
+  Public technical audit and evidence package documenting repeated reliability failures in a long-running ChatGPT / GPT-5.6 Sol multimodal workflow. The report distinguishes instruction comprehension from execution, focuses on state-to-action and correction-to-action binding, preserves source-provenance and causal-evidence boundaries, and includes a controlled repeated-run series plus supplemental observations from 4–6 September 2026. Internal OpenAI causes are not asserted without telemetry.
+authors:
+  - family-names: "Ysaak62"
+keywords:
+  - "GPT-5.6 Sol"
+  - "ChatGPT"
+  - "instruction following"
+  - "constraint enforcement"
+  - "state-to-action binding"
+  - "correction recovery"
+  - "agent reliability"
+  - "multimodal AI"
+  - "image generation"
+  - "AI evaluation"
+  - "AI safety"
+repository-code: "https://github.com/Ysaak62/chatgpt-technical-audit"
+url: "https://github.com/Ysaak62/chatgpt-technical-audit/blob/main/CODEX_READ_FIRST_EN.md"
+date-released: 2026-09-06
+preferred-citation:
+  type: report
+  title: "Technical Audit of ChatGPT / GPT-5.6 Sol Reliability: Instruction-to-Action Binding and Multimodal Workflow Incidents"
+  authors:
+    - family-names: "Ysaak62"
+  year: 2026
+  url: "https://github.com/Ysaak62/chatgpt-technical-audit/blob/main/CODEX_READ_FIRST_EN.md"
