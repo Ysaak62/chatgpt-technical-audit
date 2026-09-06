@@ -25,6 +25,17 @@ The complete Markdown report is published in eight ordered parts. **Read all eig
 
 The split is a publication/transport choice only; the source report is one continuous document.
 
+## Public discovery and citation
+
+- Repository overview and abstract: [README.md](README.md)
+- Citation metadata: [CITATION.cff](CITATION.cff)
+- Zenodo-ready report metadata: [.zenodo.json](.zenodo.json)
+- GitHub Pages-ready landing page source: [docs/index.html](docs/index.html)
+- Prepared archival release notes: [PUBLICATION_RELEASE_NOTES.md](PUBLICATION_RELEASE_NOTES.md)
+- Public OpenAI Codex tracker: [openai/codex #41851](https://github.com/openai/codex/issues/41851)
+
+The Zenodo DOI has not yet been assigned. After a versioned archival release is published, the DOI can be added here as the preferred immutable citation target for that release.
+
 ## Source integrity
 
 Library/archive DOCX v1.3 SHA-256:
