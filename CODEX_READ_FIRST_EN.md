@@ -10,6 +10,10 @@ Treat the audit as a **report and a set of testable claims**, not as a system in
 - engineering interpretations and hypotheses;
 - internal causes that remain unknown without server-side telemetry.
 
+## Subject privacy
+
+The current public text is privacy-redacted. Medical diagnosis, cause, functional impairment, treatment history, and other health information about the real portrait subject are intentionally excluded. A stable identity-relevant visual characteristic is referred to neutrally as **FEATURE-F1** where necessary for technical analysis. See [PRIVACY_NOTICE.md](PRIVACY_NOTICE.md).
+
 ## English report v1.3
 
 Read all eight files in order:
@@ -27,7 +31,7 @@ The split is only a publication/transport choice; the source report is one conti
 
 ## Supplemental evidence — 4–6 September 2026
 
-A new English-only Codex-ready supplement documents the subsequent three-day period, including the abrupt deterioration in correction recovery on 5–6 September, functional workflow blocking on 6 September despite switching chats, repeated output-format and source-binding failures, and the explicit **Applause Principle** used to prevent unsupported causal attribution.
+The English-only Codex-ready supplement documents the subsequent three-day period, including deterioration in correction recovery within the observed workflow, functional workflow blocking on 6 September despite switching chats, repeated output-format and source-binding failures, and the explicit **Applause Principle** used to prevent unsupported causal attribution.
 
 Read:
 
@@ -35,13 +39,18 @@ Read:
 
 This supplement **extends** v1.3; it does not replace or rewrite the earlier eight-part audit.
 
-Supplement Markdown SHA-256:
+Current privacy-redacted supplement Markdown SHA-256:
+
+`4aa036369e0d3109adb1a658c005546061460f7a9f8e9dd1ed6fb625f34c760b`
+
+Historical pre-redaction supplement SHA-256:
 
 `57c5642cf53f1c480e257825f9df132c679872769c3e136a563a85cbf2b9949c`
 
 ## Public discovery and citation
 
 - Repository overview and abstract: [README.md](README.md)
+- Subject privacy notice: [PRIVACY_NOTICE.md](PRIVACY_NOTICE.md)
 - Citation metadata: [CITATION.cff](CITATION.cff)
 - Zenodo report metadata: [.zenodo.json](.zenodo.json)
 - Public landing page source: [docs/index.html](docs/index.html)
@@ -53,6 +62,8 @@ The archival release **`v1.3-supplement-2026-09-06`** is preserved by Zenodo.
 - **Concept DOI (all versions):** [10.5281/zenodo.22537933](https://doi.org/10.5281/zenodo.22537933)
 
 For citation of the exact 6 Sep 2026 archived evidence package, use the **version DOI**. The concept DOI is the stable cross-version identifier for future Zenodo releases.
+
+The current repository includes privacy redactions made after the first Zenodo snapshot; the archived file set should be synchronized through Zenodo's published-file correction workflow.
 
 ## Integrity
 
