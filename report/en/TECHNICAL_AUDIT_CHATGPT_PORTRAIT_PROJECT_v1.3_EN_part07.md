@@ -14,13 +14,15 @@ A critical evidence boundary remains. The user interface does not provide an ind
 - **the observable result of each run**;
 - **the internal reference-binding state that is not verifiable from the user interface**.
 
+For subject privacy, a stable identity-relevant visual characteristic is referred to below only as **FEATURE-F1**. Medical diagnosis, cause, functional impairment, treatment history, and other health information are intentionally excluded from the public report.
+
 ## 27.2. Observed Sequence of Runs 1–6
 
 The series was planned as 10 runs, but six had been completed when v1.3 was fixed. The statistical test is therefore **incomplete**; only events already observed are recorded below.
 
 ### Run 1
 
-The first run produced a package of ten separate formal studio portraits of a mature man in a suit. The results varied in composition, hair, tie, and facial shape, but generally remained within the expected class "mature man / formal portrait" and reproduced pronounced asymmetry of the left eye.
+The first run produced a package of ten separate formal studio portraits of a mature man in a suit. The results varied in composition, hair, tie, and facial shape, but generally remained within the expected class "mature man / formal portrait" and reproduced the characteristic FEATURE-F1 asymmetry.
 
 Available gen_id values:
 
@@ -37,15 +39,15 @@ Available gen_id values:
 
 ### Run 2
 
-The next run abruptly changed output class: instead of the mature man from the previous portrait family, it produced a substantially younger man with dark hair, a black crewneck/sweater, and a beige background, without the characteristic left-eye pathology/asymmetry and without a formal suit.
+The next run abruptly changed output class: instead of the mature man from the previous portrait family, it produced a substantially younger man with dark hair, a black crewneck/sweater, and a beige background, without the characteristic FEATURE-F1 appearance and without a formal suit.
 
 - gen_id: `04801613-9b8f-4424-a7c3-eeadb5838da4`
 
-This deviation cannot reasonably be described as only a small stochastic variation in facial traits: age interpretation, clothing, background, eye structure, and the overall morphological family all changed at the same time.
+This deviation cannot reasonably be described as only a small stochastic variation in facial traits: age interpretation, clothing, background, FEATURE-F1 structure, and the overall morphological family all changed at the same time.
 
 ### Run 3
 
-The third run essentially continued the same new young-man template: dark hair, black crewneck, beige studio background, and absence of the required left-eye asymmetry.
+The third run essentially continued the same new young-man template: dark hair, black crewneck, beige studio background, and absence of the required FEATURE-F1 asymmetry.
 
 - gen_id: `ece06e9e-730d-468f-907a-61765f0343d5`
 
@@ -53,7 +55,7 @@ This is not a single random outlier, but repetition of the same incorrect output
 
 ### Run 4
 
-The fourth run returned to a mature man in a suit with pronounced left-eye asymmetry.
+The fourth run returned to a mature man in a suit with pronounced FEATURE-F1 asymmetry.
 
 - gen_id: `76290fc5-d619-473d-a1fb-6db98a81c641`
 
@@ -88,7 +90,7 @@ This is a particularly strong observable event: explicit corrective feedback dir
 **Not confirmed at this stage:**
 
 1. That GPT-5.6 Sol "irreversibly deteriorates" over time.
-2. That there is medically or mathematically established "progression" of the defect.
+2. That there is statistically established progression of the observed reliability defect.
 3. Which specific internal component produced each deviating output.
 4. Which conditioning refs the backend actually accepted in each of the six runs.
 5. The statistical frequency of this failure across the user population: six runs from one workflow do not provide a population estimate.
