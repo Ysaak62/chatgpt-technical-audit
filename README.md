@@ -1,5 +1,7 @@
 # Technical Audit of ChatGPT / GPT-5.6 Sol Reliability
 
+[![DOI](https://zenodo.org/badge/1351733713.svg)](https://doi.org/10.5281/zenodo.22537933)
+
 **Public evidence package on instruction-to-action binding, correction recovery, multimodal reference handling, and image-generation workflow reliability.**
 
 ## Abstract
@@ -78,12 +80,15 @@ At the time v1.3 was fixed, the planned ten-run generation series was incomplete
 
 ## Citation and archival publication
 
-- [`CITATION.cff`](CITATION.cff) provides machine-readable citation metadata for GitHub and citation tools.
-- [`.zenodo.json`](.zenodo.json) prepares the repository for archival metadata as a **publication/report** when Zenodo integration is enabled.
-- [`docs/index.html`](docs/index.html) is a GitHub Pages-ready public landing page.
-- [`PUBLICATION_RELEASE_NOTES.md`](PUBLICATION_RELEASE_NOTES.md) contains prepared release text for the first archival release.
+The release **`v1.3-supplement-2026-09-06`** is archived by Zenodo.
 
-A Zenodo DOI is **not yet assigned**. The DOI will be added to the repository after the first versioned archival release is published.
+- **Version DOI (this archived release): [10.5281/zenodo.22537933](https://doi.org/10.5281/zenodo.22537933)**
+- **Concept DOI (all versions of this Zenodo record): [10.5281/zenodo.22537934](https://doi.org/10.5281/zenodo.22537934)**
+- [`CITATION.cff`](CITATION.cff) provides machine-readable citation metadata for GitHub and citation tools.
+- [`.zenodo.json`](.zenodo.json) provides Zenodo publication/report metadata.
+- [`docs/index.html`](docs/index.html) is the source of the public GitHub Pages landing page.
+
+For reproducible citation of the evidence package as released on 6 Sep 2026, use the **version DOI** `10.5281/zenodo.22537933`. The concept DOI is useful as a stable reference to the evolving record across future versions.
 
 ## Publication status
 
