@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Technical Audit of ChatGPT / GPT-5.6 Sol Reliability</title>
+  <meta name="description" content="Public technical audit of GPT-5.6 Sol reliability, instruction-to-action binding, correction recovery, multimodal reference handling, and image-generation workflow incidents.">
+  <meta name="keywords" content="GPT-5.6 Sol, ChatGPT, instruction following, constraint enforcement, state-to-action binding, correction recovery, agent reliability, multimodal AI, image generation, AI evaluation, AI safety">
+  <meta name="robots" content="index,follow">
+  <style>
+    body { max-width: 900px; margin: 0 auto; padding: 40px 22px 80px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.62; color: #1f2328; }
+    h1, h2 { line-height: 1.2; }
+    h1 { font-size: 2.2rem; margin-bottom: 0.4rem; }
+    h2 { margin-top: 2.2rem; }
+    .subtitle { font-size: 1.08rem; color: #57606a; }
+    .status { padding: 12px 14px; border: 1px solid #d0d7de; border-radius: 8px; background: #f6f8fa; }
+    .links a { display: inline-block; margin: 0.2rem 0.8rem 0.2rem 0; }
+    code { background: #f6f8fa; padding: 0.1rem 0.3rem; border-radius: 4px; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #d0d7de; color: #57606a; font-size: 0.92rem; }
+  </style>
+</head>
+<body>
+  <h1>Technical Audit of ChatGPT / GPT-5.6 Sol Reliability</h1>
+  <p class="subtitle">Instruction-to-action binding, correction recovery, multimodal reference handling, and image-generation workflow incidents</p>
+
+  <p class="status"><strong>Status:</strong> Public technical audit and evidence package. The main report is v1.3 (30 Aug 2026), extended by supplemental evidence covering 4–6 Sep 2026. This is a user-authored technical report, not an OpenAI publication and not a peer-reviewed paper.</p>
+
+  <h2>Abstract</h2>
+  <p>This project documents repeated reliability failures observed during a long-running ChatGPT / GPT-5.6 Sol multimodal workflow. The central question is not whether the model can understand explicit constraints, but whether acknowledged constraints are reliably bound to the immediately following executable action. The evidence separates instruction comprehension, textual acknowledgement, executable state, and actual tool/action behavior. It also distinguishes observed facts from engineering interpretations and from internal causes that remain unverified without server-side telemetry.</p>
+  <p>The evidence package includes a controlled repeated-run series, source-provenance analysis, correction-recovery observations, multimodal/image-generation failures, and a later supplement documenting a sharp deterioration in recovery reliability on 5–6 Sep 2026. The report applies an explicit causal-discipline rule, the “Applause Principle”: temporal sequence alone is not sufficient evidence of causation.</p>
+
+  <h2>Primary finding</h2>
+  <p><strong>GPT-5.6 Sol can understand and verbalize active constraints, but those constraints are not always reliably converted into effective pre-action gates or bound to the next executable action. Repeated textual correction does not guarantee reliable correction-to-action recovery.</strong></p>
+
+  <h2>Read the evidence</h2>
+  <div class="links">
+    <a href="https://github.com/Ysaak62/chatgpt-technical-audit/blob/main/CODEX_READ_FIRST_EN.md">English entry point</a>
+    <a href="https://github.com/Ysaak62/chatgpt-technical-audit/blob/main/CODEX_READ_FIRST.md">Russian entry point</a>
+    <a href="https://github.com/Ysaak62/chatgpt-technical-audit/blob/main/report/en/CODEX_SUPPLEMENT_2026-09-04_to_06_EN.md">4–6 Sep 2026 supplement</a>
+    <a href="https://github.com/openai/codex/issues/41851">OpenAI Codex issue #41851</a>
+    <a href="https://github.com/Ysaak62/chatgpt-technical-audit">Evidence repository</a>
+  </div>
+
+  <h2>Evidence standard</h2>
+  <ul>
+    <li><strong>Observed fact:</strong> user instruction, assistant statement, visible tool action, file, commit, or output.</li>
+    <li><strong>Localized action:</strong> attribution only where the relevant action is directly evidenced.</li>
+    <li><strong>Internal cause:</strong> remains <code>UNVERIFIED</code> without telemetry sufficient to identify the responsible subsystem.</li>
+  </ul>
+
+  <h2>Topics</h2>
+  <p>GPT-5.6 Sol · ChatGPT · instruction following · constraint enforcement · state-to-action binding · correction recovery · agent reliability · multimodal AI · image generation · AI evaluation · AI safety</p>
+
+  <h2>Integrity</h2>
+  <p>Main English v1.3 Markdown SHA-256: <code>77e3efdcf89f60221cb049e083380af844e4de1d9d2902f8b00e4121e652f4e5</code></p>
+  <p>Supplement Markdown SHA-256: <code>57c5642cf53f1c480e257825f9df132c679872769c3e136a563a85cbf2b9949c</code></p>
+
+  <h2>Citation</h2>
+  <p>The repository includes <a href="https://github.com/Ysaak62/chatgpt-technical-audit/blob/main/CITATION.cff"><code>CITATION.cff</code></a> for machine-readable citation metadata. A Zenodo DOI is planned for a versioned archival release; the DOI will be added here after publication.</p>
+
+  <footer>
+    Maintained as a public evidence record. Versioned archival publication is being prepared through GitHub Releases and Zenodo.
+  </footer>
+</body>
+</html>
