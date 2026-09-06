@@ -49,8 +49,8 @@ Supplement Markdown SHA-256:
 
 The archival release **`v1.3-supplement-2026-09-06`** is preserved by Zenodo.
 
-- **Version DOI:** [10.5281/zenodo.22537933](https://doi.org/10.5281/zenodo.22537933)
-- **Concept DOI:** [10.5281/zenodo.22537934](https://doi.org/10.5281/zenodo.22537934)
+- **Version DOI (exact 6 Sep 2026 release):** [10.5281/zenodo.22537934](https://doi.org/10.5281/zenodo.22537934)
+- **Concept DOI (all versions):** [10.5281/zenodo.22537933](https://doi.org/10.5281/zenodo.22537933)
 
 For citation of the exact 6 Sep 2026 archived evidence package, use the **version DOI**. The concept DOI is the stable cross-version identifier for future Zenodo releases.
 
