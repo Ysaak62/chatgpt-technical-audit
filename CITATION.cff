@@ -21,7 +21,7 @@ keywords:
   - "AI safety"
 repository-code: "https://github.com/Ysaak62/chatgpt-technical-audit"
 url: "https://github.com/Ysaak62/chatgpt-technical-audit/blob/main/CODEX_READ_FIRST_EN.md"
-date-released: 2026-09-06
+date-released: "2026-09-06"
 preferred-citation:
   type: report
   title: "Technical Audit of ChatGPT / GPT-5.6 Sol Reliability: Instruction-to-Action Binding and Multimodal Workflow Incidents"
