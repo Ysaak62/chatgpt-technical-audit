@@ -25,6 +25,20 @@ Read all eight files in order:
 
 The split is only a publication/transport choice; the source report is one continuous document.
 
+## Supplemental evidence — 4–6 September 2026
+
+A new English-only Codex-ready supplement documents the subsequent three-day period, including the abrupt deterioration in correction recovery on 5–6 September, functional workflow blocking on 6 September despite switching chats, repeated output-format and source-binding failures, and the explicit **Applause Principle** used to prevent unsupported causal attribution.
+
+Read:
+
+- [CODEX_SUPPLEMENT_2026-09-04_to_06_EN.md](report/en/CODEX_SUPPLEMENT_2026-09-04_to_06_EN.md)
+
+This supplement **extends** v1.3; it does not replace or rewrite the earlier eight-part audit.
+
+Supplement Markdown SHA-256:
+
+`57c5642cf53f1c480e257825f9df132c679872769c3e136a563a85cbf2b9949c`
+
 ## Integrity
 
 English source Markdown SHA-256:
