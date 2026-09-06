@@ -29,12 +29,16 @@ The split is a publication/transport choice only; the source report is one conti
 
 - Repository overview and abstract: [README.md](README.md)
 - Citation metadata: [CITATION.cff](CITATION.cff)
-- Zenodo-ready report metadata: [.zenodo.json](.zenodo.json)
-- GitHub Pages-ready landing page source: [docs/index.html](docs/index.html)
-- Prepared archival release notes: [PUBLICATION_RELEASE_NOTES.md](PUBLICATION_RELEASE_NOTES.md)
+- Zenodo report metadata: [.zenodo.json](.zenodo.json)
+- Public landing page source: [docs/index.html](docs/index.html)
 - Public OpenAI Codex tracker: [openai/codex #41851](https://github.com/openai/codex/issues/41851)
 
-The Zenodo DOI has not yet been assigned. After a versioned archival release is published, the DOI can be added here as the preferred immutable citation target for that release.
+Архивный релиз **`v1.3-supplement-2026-09-06`** сохранён в Zenodo.
+
+- **DOI конкретной архивной версии:** [10.5281/zenodo.22537933](https://doi.org/10.5281/zenodo.22537933)
+- **Concept DOI для всей серии версий:** [10.5281/zenodo.22537934](https://doi.org/10.5281/zenodo.22537934)
+
+Для точного цитирования зафиксированного пакета доказательств от 6 сентября 2026 года следует использовать DOI конкретной версии. Concept DOI предназначен для стабильной ссылки на серию последующих версий Zenodo.
 
 ## Source integrity
 
