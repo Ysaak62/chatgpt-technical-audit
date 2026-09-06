@@ -39,6 +39,17 @@ Supplement Markdown SHA-256:
 
 `57c5642cf53f1c480e257825f9df132c679872769c3e136a563a85cbf2b9949c`
 
+## Public discovery and citation
+
+- Repository overview and abstract: [README.md](README.md)
+- Citation metadata: [CITATION.cff](CITATION.cff)
+- Zenodo-ready report metadata: [.zenodo.json](.zenodo.json)
+- GitHub Pages-ready landing page source: [docs/index.html](docs/index.html)
+- Prepared archival release notes: [PUBLICATION_RELEASE_NOTES.md](PUBLICATION_RELEASE_NOTES.md)
+- Public OpenAI Codex tracker: [openai/codex #41851](https://github.com/openai/codex/issues/41851)
+
+A Zenodo DOI has not yet been assigned. When an archival DOI exists, it should be treated as the preferred immutable citation target for the corresponding versioned release.
+
 ## Integrity
 
 English source Markdown SHA-256:
