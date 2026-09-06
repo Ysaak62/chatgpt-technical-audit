@@ -10,7 +10,7 @@
 | **CANDIDATE2_HOOK_ONLY_V7_COMPATIBILITY_REPORT.json** | Significant UNKNOWN segments; limited geometric transferability. |
 | **left_eye_original_iris_pixel_restore_v3_report.txt** | 615-pixel RGB copy; 0 donor mismatches; 0 outside-mask changes. |
 | **capability_test_v31_primary_evidence.json** | Deterministic capability test PASS while final status UNVERIFIED. |
-| **V19_CORRECTED_VERIFICATION_REPORT.json** | 0 protected-pixel changes outside aperture; corrected isolation of pupil modulation. |
+| **V19_CORRECTED_VERIFICATION_REPORT.json** | 0 protected-pixel changes outside aperture; corrected isolation of local modulation. |
 | **CANDIDATE2_E6_UNDERLAP_OCCLUSION_U1_REPORT.json** | 40-pixel underlap; 0 outside; exact restoration 0 diff. |
 | **CANDIDATE2_RECOGNIZABILITY_MOUTH_STAGE1_v17_REPORT.json** | 629 inside / 0 outside permission mask. |
 | **00_READ_ME_FIRST.txt** | Clean new-chat package; TEST-3/4 excluded; 4 ORIGINAL + one shared task specification. |
@@ -37,6 +37,8 @@ ADDENDUM V1.1 TO THE TECHNICAL REPORT OF 27 AUG 2026
 **Status:** addendum to v1.0 covering events that occurred after v1.0 was fixed on the same day.
 
 **Evidence principle:** observable artifacts, user visual verification, and available tool metadata are separated from assumptions about the internal operation of the image-generation backend.
+
+**Privacy rule for the public version:** medical diagnosis, cause, functional impairment, treatment history and other health information concerning the portrait subject are intentionally excluded. Identity-relevant visual features are described only to the extent necessary to document technical constraint-following.
 
 # 20. New Control Experiment After Version 1.0 Was Fixed
 
@@ -80,7 +82,7 @@ The available data do not establish whether this was a moderation false positive
 
 After retrying, the system produced not a fourth independent candidate, but a service-formatted composite/infographic. The images labeled ORIGINAL 48-49, ORIGINAL around 55, ORIGINAL later age, and ORIGINAL around 90 did not visually match the real input photographs.
 
-The user identified the mismatch from composition and facial morphology: the real first ORIGINAL is a black-and-white photograph of two men; the real second ORIGINAL is a family photograph with a woman and children; the later ORIGINAL shows the man in a white shirt; and the ORIGINAL around age 90 shows a nearly bald man in a blue T-shirt at a table with a walker on the left. In the generated sheet, these were replaced by newly synthesized single-person studio portraits.
+The user identified the mismatch from composition and facial morphology: the real source photographs had distinct multi-person/single-person compositions, clothing and background objects that were absent from the generated sheet. In the generated sheet, these were replaced by newly synthesized single-person studio portraits. Health- or mobility-related background details from the private originals are intentionally omitted from this public description.
 
 Thus, an ORIGINAL label inside a generated image was not evidence that the source file had been used. The generator synthetically depicted a "source" as part of its own output.
 
