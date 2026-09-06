@@ -10,7 +10,7 @@
       "name": "Ysaak62"
     }
   ],
-  "description": "Public technical audit and evidence package documenting repeated reliability failures in a long-running ChatGPT / GPT-5.6 Sol multimodal workflow. The report distinguishes instruction comprehension from execution, focuses on state-to-action and correction-to-action binding, preserves source-provenance and causal-evidence boundaries, and includes a controlled repeated-run series plus supplemental observations from 4–6 September 2026. Internal OpenAI causes are not asserted without telemetry.",
+  "description": "Public technical audit and evidence package documenting repeated reliability failures in a long-running ChatGPT / GPT-5.6 Sol multimodal workflow. The report distinguishes instruction comprehension from execution, focuses on state-to-action and correction-to-action binding, preserves source-provenance and causal-evidence boundaries, and includes a controlled repeated-run series plus supplemental observations from 4–6 September 2026. The current public text is privacy-redacted: medical diagnosis, medical cause, functional impairment, treatment history and other health information concerning the real portrait subject are intentionally excluded, and a stable identity-relevant visual characteristic is referred to neutrally as FEATURE-F1 where necessary. Internal OpenAI causes are not asserted without telemetry. Full v1.3 report text is available in English and Russian; the 4–6 September supplement is currently English-only.",
   "keywords": [
     "GPT-5.6 Sol",
     "ChatGPT",
