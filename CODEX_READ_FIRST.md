@@ -10,6 +10,10 @@ Treat the audit as a **report and a set of testable claims**, not as a system in
 - engineering interpretations and hypotheses;
 - internal causes that remain unknown without server-side telemetry.
 
+## Приватность субъекта
+
+Текущая публичная версия использует privacy-redacted terminology. Медицинский диагноз, причина, функциональные ограничения, история лечения и иные сведения о здоровье реального портретного субъекта намеренно исключаются. Одна устойчивая identity-relevant визуальная особенность при необходимости обозначается нейтральным кодом **FEATURE-F1**. См. [PRIVACY_NOTICE.md](PRIVACY_NOTICE.md).
+
 ## Full report v1.3
 
 The complete Markdown report is published in eight ordered parts. **Read all eight in sequence**:
@@ -28,6 +32,7 @@ The split is a publication/transport choice only; the source report is one conti
 ## Public discovery and citation
 
 - Repository overview and abstract: [README.md](README.md)
+- Subject privacy notice: [PRIVACY_NOTICE.md](PRIVACY_NOTICE.md)
 - Citation metadata: [CITATION.cff](CITATION.cff)
 - Zenodo report metadata: [.zenodo.json](.zenodo.json)
 - Public landing page source: [docs/index.html](docs/index.html)
@@ -39,6 +44,8 @@ The split is a publication/transport choice only; the source report is one conti
 - **Concept DOI для всей серии версий:** [10.5281/zenodo.22537933](https://doi.org/10.5281/zenodo.22537933)
 
 Для точного цитирования зафиксированного пакета доказательств от 6 сентября 2026 года следует использовать DOI конкретной версии — `10.5281/zenodo.22537934`. Concept DOI `10.5281/zenodo.22537933` предназначен для стабильной ссылки на серию последующих версий Zenodo.
+
+Текущий GitHub-репозиторий содержит privacy-redactions, внесённые после первого Zenodo snapshot. Архивный набор файлов Zenodo следует синхронизировать через published-file correction workflow.
 
 ## Source integrity
 
